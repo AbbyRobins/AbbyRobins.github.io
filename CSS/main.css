@@ -127,6 +127,8 @@ h2 {
 }
 
 h3 {
+    display: flex;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-size: 110%;
@@ -134,10 +136,27 @@ h3 {
 }
 
 h4 {
+    display: flex;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-size: 90%;
     color: #9E1F63
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 100%;
+    color: #535353
+}
+
+ul {
+    color: #535353
+}
+
+figcaption {
+    color: #535353
 }
 
 ::selection {
