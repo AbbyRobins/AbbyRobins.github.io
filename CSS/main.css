@@ -14,7 +14,7 @@ header { /* style */
 header { /* positioning */
     top: 0;
     left: 0;
-    width: 200px;
+    width: 300px;
     height: 100vh;
     position: fixed;
     display: flex;
@@ -38,7 +38,6 @@ nav li {
 nav a {
     display: inline-block;
     text-decoration: none;
-    color: #939598;
     border-radius: 5px;
     padding: 15px;
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -54,7 +53,7 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-.return-to-top-text {
+.header-port-nav ul {
     margin-top: auto;
     text-align: center;
     padding-bottom: 50px;
@@ -102,15 +101,15 @@ footer {
 }
 
 a {
-    color: #9E1F63;
+    color: #939598;
 }
 
 a:visited {
-    color: #9E1F63;
+    color: #939598;
 }
 
 a:hover {
-    color: #939598;
+    color: #9E1F63;
 }
 
 h1 {
@@ -124,6 +123,20 @@ h2 {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-size: 200%;
+    color: #9E1F63
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 110%;
+    color: #9E1F63
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 90%;
     color: #9E1F63
 }
 
