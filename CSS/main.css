@@ -67,3 +67,15 @@ footer {
     background-color: #ffffff;
     color: #333;
 }
+
+a:link {
+    color: #9E1F63;
+}
+
+a:visited {
+    color: #9E1F63;
+}
+
+a:hover {
+    color: #db95bb;
+}
