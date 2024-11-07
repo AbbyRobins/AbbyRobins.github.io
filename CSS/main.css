@@ -28,6 +28,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav li {
@@ -36,14 +37,14 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #333;
     display: block;
     padding: 10px;
 }
 
 nav a:hover {
     background-color: #9E1F63;
-    color: #ffffff
+    color: #ffffff;
+    border-radius: 5px;
   }
 
 .pagecontainer {
