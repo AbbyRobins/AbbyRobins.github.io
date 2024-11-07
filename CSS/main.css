@@ -27,7 +27,7 @@ header { /* positioning */
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 5px 0;
 }
 
 nav li {
@@ -36,20 +36,48 @@ nav li {
 }
 
 nav a {
+    display: inline-block;
     text-decoration: none;
-    display: block;
-    padding: 10px;
-}
-
-nav a {
-    color: #939598
+    color: #939598;
+    border-radius: 5px;
+    padding: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform-origin: top center;
 }
 
 nav a:hover {
+    display: inline-block;
     background-color: #9E1F63;
     color: #ffffff;
     border-radius: 5px;
-  }
+    padding: 15px;
+    transform: scale(1.1);
+}
+
+.return-to-top-text {
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.return-to-top-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #939598;
+    border-radius: 5px;
+    padding: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform-origin: top center;
+}
+
+.return-to-top-link:hover {
+    display: inline-block;
+    background-color: #9E1F63;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    transform: scale(1.1);
+}
 
 .pagecontainer {
     display: flex;
@@ -67,7 +95,7 @@ footer {
     z-index: 2; /* footer is "above" the header */
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     overflow-y: 10px;
     background-color: #000000;
     color: #939598;
