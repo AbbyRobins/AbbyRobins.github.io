@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abby Robins Design</title>
-    <link rel="icon" type="image/x-icon" href="./LOGOS/transparentFavicon.png">
+    <link rel="icon" type="image/x-icon" href="./LOGOS/transparentFavicon.png" id="headerlogo">
     <script defer>window.oncontextmenu=(event)=>{return false;};</script>
+    <link href="./CSS/main.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <figure>
-            <a href="./index.html"><img src="./LOGOS/transparentWordmark2.png" width="200" alt="Abby Robins Design wordmark logo."></a>
+            <a href="./index.html"><img src="./LOGOS/transparentWordmark2.png" width="200" alt="Abby Robins Design wordmark logo." class="headerlogo"></a>
         </figure>
         <nav>
             <ul>
@@ -24,15 +25,10 @@
         </nav>
     </header>
 
-    <div class="hero-image"> <!--hero image, might delete-->
-        <div class="hero-text">
-          <h1>Hey there, I'm Abby!</h1>
-          <p>I'm a graphic designer and motion artist.</p>
-        </div>
-    </div>
-
-    <div class="container">
+    <div class="pagecontainer">
         <main>
+            <h1>Hey there, I'm Abby!</h1>
+            <p>I'm a graphic designer and motion artist.</p>
             <section> <!--introduction-->
                 <p>
                     I am a student at the Southern Alberta Institute of Technology in the Interactive Design Diploma, majoring in User Experience.
@@ -45,13 +41,12 @@
                 </ol>
             </section>
         </main>
+        <footer>
+            <figure>
+                <a href="./index.html"><img src="./LOGOS/transparentLogo.png" width="100" alt="Abby Robins Design logo."></a>
+            </figure>
+            <p>&copy; 2024 Abby Robins Design. All rights reserved.</p>
+        </footer>
     </div>
-
-    <footer>
-        <figure>
-            <a href="./index.html"><img src="./LOGOS/transparentLogo.png" width="100" alt="Abby Robins Design logo."></a>
-        </figure>
-        <p>&copy; 2024 Abby Robins Design. All rights reserved.</p>
-    </footer>
 </body>
 </html>
