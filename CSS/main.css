@@ -23,6 +23,11 @@ header { /* positioning */
     overflow-y: auto;
 }
 
+.return-to-top-link {
+    align-self: center;
+    text-align: center;
+}
+
 nav ul {
     list-style-type: none;
     padding: 5px;
@@ -56,25 +61,6 @@ nav a:hover {
     margin-top: auto;
     text-align: center;
     padding-bottom: 50px;
-}
-
-.return-to-top-link {
-    display: inline-block;
-    text-decoration: none;
-    color: #939598;
-    border-radius: 5px;
-    padding: 15px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    transform-origin: top center;
-}
-
-.return-to-top-link:hover {
-    display: inline-block;
-    background-color: #9E1F63;
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 15px;
-    transform: scale(1.1);
 }
 
 .pagecontainer {
@@ -111,14 +97,14 @@ a:hover {
 }
 
 h1 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-size: 300%;
     color: #9E1F63
 }
 
 h2 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-size: 200%;
     color: #9E1F63
@@ -126,8 +112,7 @@ h2 {
 
 h3 {
     display: flex;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-size: 110%;
     color: #9E1F63
@@ -136,9 +121,9 @@ h3 {
 h4 {
     display: flex;
     justify-content: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    font-size: 90%;
+    font-size: 125%;
     color: #9E1F63
 }
 
@@ -149,12 +134,18 @@ p {
     color: #535353
 }
 
+strong {
+    font-size: 110%;
+}
+
 ul {
     color: #535353;
+    font-family: "Quicksand", sans-serif;
 }
 
 figcaption {
-    color: #535353
+    color: #535353;
+    font-family: "Roboto", sans-serif;
 }
 
 ::selection {
@@ -162,9 +153,7 @@ figcaption {
     color: #ffffff
 }
 
-/* Existing styles remain unchanged */
-
-/* Mobile styles */
+/* collapsible menu for mobile??? */
 @media only screen and (max-width: 768px) {
     header {
         width: 100%;
@@ -198,7 +187,6 @@ figcaption {
     }
 }
 
-/* Desktop styles */
 @media only screen and (min-width: 769px) {
     .header-toggle {
         display: none;

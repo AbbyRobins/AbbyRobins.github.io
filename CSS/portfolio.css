@@ -23,3 +23,79 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+
+/* image formatting for freelance */
+.freelance-projects figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.freelance-projects figure img, figure video {
+    display: block;
+    max-width: 500px;
+    height: auto;
+}
+
+.freelance-projects figcaption {
+    text-align: center; 
+    padding: 5px; 
+    width: 100%;
+}
+
+#client1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+    padding: 20px;
+}
+
+#client2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+    padding: 20px;
+}
+
+#client3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+    padding: 20px;
+}
+
+#client4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+    padding: 20px;
+}
+
+/* image formatting for photography */ 
+#photography figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#photography figure img, figure video {
+    display: block;
+    max-width: 500px;
+    height: auto;
+}
+
+#photography figcaption {
+    text-align: center; 
+    padding: 5px; 
+    width: 100%;
+}
+
+#photography {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+    padding: 20px;
+}
