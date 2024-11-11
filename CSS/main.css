@@ -123,7 +123,10 @@ h3 {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-size: 110%;
-    color: #9E1F63
+    color: #ffffff;
+    background-color: #9E1F63;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 h4 {
@@ -132,6 +135,13 @@ h4 {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-size: 125%;
+    color: #9E1F63
+}
+
+h5 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 90%;
     color: #9E1F63
 }
 
@@ -154,6 +164,10 @@ ul {
 figcaption {
     color: #535353;
     font-family: "Roboto", sans-serif;
+}
+
+table {
+    font-family: "Quicksand", sans-serif;
 }
 
 ::selection {

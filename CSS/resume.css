@@ -1,0 +1,9 @@
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-column {
+    flex: 1;
+    margin: 0 10px;
+}
