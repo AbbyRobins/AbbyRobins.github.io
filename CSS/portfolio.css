@@ -35,7 +35,7 @@
 
 .freelance-projects figure img, figure video {
     display: block;
-    max-width: 500px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -98,4 +98,42 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem; 
     padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .freelance-projects #client1 {
+        grid-template-columns: 1fr;
+    }
+    .freelance-projects #client2 {
+        grid-template-columns: 1fr;
+    }
+    .freelance-projects #client3 {
+        grid-template-columns: 1fr;
+    }
+    .freelance-projects #client4 {
+        grid-template-columns: 1fr;
+    }
+
+    .freelance-projects figure {
+        margin-bottom: 20px;
+    }
+
+    .freelance-projects figure img, 
+    .freelance-projects figure video {
+        max-width: 100%;
+    }
+    
+    .school-projects #photography {
+        grid-template-columns: 1fr;
+    }
+
+    .school-projects figure {
+        margin-bottom: 20px;
+    }
+
+    .school-projects figure img, 
+    .school-projects figure video {
+        max-width: 100%;
+        height: auto;
+    }
 }
