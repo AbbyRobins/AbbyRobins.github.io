@@ -176,6 +176,27 @@ table {
     color: #ffffff
 }
 
+/* FORMS */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+label {
+    font-family: "Quicksand", sans-serif;
+    color: #9E1F63;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
 /* collapsible menu for mobile??? */
 @media only screen and (max-width: 768px) {
     header {
