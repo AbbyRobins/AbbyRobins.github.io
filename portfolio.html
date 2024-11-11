@@ -7,6 +7,8 @@
     <link rel="icon" type="image/x-icon" href="./LOGOS/transparentFavicon.png">
     <script defer>window.oncontextmenu=(event)=>{return false;};</script>
     <link href="./CSS/main.css" rel="stylesheet">
+    <link href="./CSS/portfolio.css" rel="stylesheet">
+    <script src="./JS/portfolio.js"></script>
     <style>
         @import url('https://fonts.google.com/specimen/Roboto');
         @import url('https://fonts.google.com/specimen/Quicksand');
@@ -14,48 +16,55 @@
 </head>
 
 <body>
+    <button class="header-toggle">☰</button>
     <header>
-        <figure>
-            <a href="./index.html"><img src="./LOGOS/transparentWordmark3.png" width="200" alt="Abby Robins Design wordmark logo." class="headerlogo"></a>
-        </figure>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Me</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./resumecv.html">Resume/CV</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-                <h3>Portfolio Navigation</h3>
+        <div class="header-content">
+            <figure>
+                <a href="./index.html"><img src="./LOGOS/transparentWordmark3.png" width="200" alt="Abby Robins Design wordmark logo." class="headerlogo"></a>
+            </figure>
+            <nav>
                 <ul>
-                    <li><a href="#portfolio-nav" class="return-to-top-link">Return toTop of Page</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Me</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./resumecv.html">Resume/CV</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
-                <h4>Freelance Projects</h4>
+                <h3>Portfolio Navigation</h3>
                     <ul>
-                        <li><a href="#client1">Client 1</a></li>
-                        <li><a href="#client2">Client 2</a></li>
-                        <li><a href="#client3">Client 3</a></li>
-                        <li><a href="#client4">Client 4</a></li>
+                        <li><a href="#portfolio-nav" class="return-to-top-link">Return to Top of Page</a></li>
                     </ul>
-                <h4>School Projects</h4>
-                    <ul>
-                        <li><a href="#photography">Photography</a></li>
-                        <li><a href="#illustrator">Illustrator</a></li>
-                        <li><a href="#photoshop">Photoshop</a></li>
-                        <li><a href="#branding">Branding</a></li>
-                        <li><a href="#drawingpainting">Drawing, Painting, & Sculpture</a></li>
-                    </ul>
-        </nav>
+            <div class="collapsible">
+                <h4 class="collapsible-header">Freelance Projects</h4>
+                        <ul class="collapsible-content">
+                            <li><a href="#client1">Client 1</a></li>
+                            <li><a href="#client2">Client 2</a></li>
+                            <li><a href="#client3">Client 3</a></li>
+                            <li><a href="#client4">Client 4</a></li>
+                        </ul>
+            </div>
+            <div class="collapsible">
+                <h4 class="collapsible-header">School Projects</h4>
+                        <ul class="collapsible-content">
+                            <li><a href="#photography">Photography</a></li>
+                            <li><a href="#illustrator">Illustrator</a></li>
+                            <li><a href="#photoshop">Photoshop</a></li>
+                            <li><a href="#branding">Branding</a></li>
+                            <li><a href="#drawingpainting">Drawing, Painting,<br>& Sculpture</a></li>
+                        </ul>
+            </div>
+            </nav>
+        </div>
     </header>
 
     <div class="pagecontainer">
         <main>
             <div class="main-container">
                 <section> <!--introduction-->
-                    <h1>Portfolio</h1>
+                    <h1 id="portfolio-nav">Portfolio</h1>
                     <p>My portfolio reflects the graphic and motion design skills I have gained from freelancing and school work. I have worked with Adobe Illustrator, Photoshop, and After Effects. Projects I have completed for Branding, Drawing, Painting, and Sculpture are also included.</p>
                     <h2>Portfolio Navigation</h2>
-                    <ul id="portfolio-nav">
+                    <ul>
                         <li>Freelance Projects</li>
                             <ul>
                                 <li><a href="#client1">Client 1</a></li>

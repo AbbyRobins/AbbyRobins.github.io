@@ -1,0 +1,25 @@
+/* collapsible menu items */
+.collapsible-header {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #9E1F63;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.collapsible-header::after { /* plus sign */
+    content: '\002B';
+    float: right;
+    margin-left: 15px;
+}
+
+.active::after {
+    content: "\2212";
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
