@@ -1,0 +1,26 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.circlemask {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circlemask img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
