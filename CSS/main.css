@@ -84,11 +84,11 @@ main {
 
 footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow-y: 10px;
+    align-items: flex-end;
+    justify-content: flex-end;
     background-color: #000000;
     color: #939598;
+    padding-right: 20px;
 }
 
 /* LINKS */
@@ -107,7 +107,6 @@ a:hover {
 /* HEADINGS / TEXT */
 h1 {
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-size: 300%;
     color: #9E1F63
 }
@@ -122,7 +121,6 @@ h2 {
 h3 {
     display: flex;
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-size: 110%;
     color: #ffffff;
     background-color: #9E1F63;
@@ -134,21 +132,18 @@ h4 {
     display: flex;
     justify-content: center;
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-size: 125%;
     color: #9E1F63
 }
 
 h5 {
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-size: 90%;
     color: #9E1F63
 }
 
 p {
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-size: 100%;
     color: #535353
 }
