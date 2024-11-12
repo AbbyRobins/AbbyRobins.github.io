@@ -194,7 +194,7 @@ input {
 }
 
 
-/* collapsible menu for mobile??? */
+/* collapsible menu for mobile??? Looked it up and this is what it said */
 @media only screen and (max-width: 768px) {
     header {
         width: 100%;
