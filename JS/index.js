@@ -25,3 +25,8 @@ document.addEventListener('DOMContentLoaded', function()
         console.log("Greeting element not found")
     }
 });
+
+//alert button
+document.getElementById('cow-button').addEventListener('click', function() {
+    alert('Boop!');
+})

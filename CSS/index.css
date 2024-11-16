@@ -1,3 +1,4 @@
+/* greeting */
 .morning {
     background: #f5cde2; color: #333;
 }
@@ -12,4 +13,28 @@
     width: 100%;
     padding: 10px 0;
     text-align: center;
+}
+
+/* alert button */
+.cow-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#cow-button {
+    cursor: pointer;
+    padding: 5px;
+    position: relative;
+}
+
+#cow-button::after {
+    content: "Boop me";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #9E1F63;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
