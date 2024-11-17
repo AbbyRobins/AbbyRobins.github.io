@@ -27,6 +27,22 @@ document.addEventListener('DOMContentLoaded', function()
 });
 
 //alert button
-document.getElementById('cow-button').addEventListener('click', function() {
+//document.getElementById('cow-button').addEventListener('click', function() {
+//    alert('Boop!');
+//})
+const cowButton = document.getElementById('cow-button');
+
+function changeTextOnHover() {
+    cowButton.setAttribute('data-original-text', cowButton.getAttribute('data-after'));
+    cowButton.setAttribute('data-after', 'Boop me!');
+}
+
+function revertText() {
+    cowButton.setAttribute('data-after', 'Moo!');
+}
+
+cowButton.addEventListener('mouseover', changeTextOnHover);
+cowButton.addEventListener('mouseout', revertText);
+cowButton.addEventListener('click', function() {
     alert('Boop!');
 })

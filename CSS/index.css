@@ -20,21 +20,22 @@
     display: flex;
     justify-content: center;
     padding-top: 80px;
+    position: relative;
 }
 
 #cow-button {
     cursor: pointer;
     padding: 5px;
     position: relative;
+    background-color: #f7f1f4;
+    border: none;
 }
 
 #cow-button::after {
-    content: "Boop me";
+    content: attr(data-after);
     position: absolute;
-    bottom: 10px;
+    top: -20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #9E1F63;
-    padding: 5px 10px;
-    border-radius: 5px;
+    white-space: nowrap;
 }
