@@ -26,10 +26,7 @@ document.addEventListener('DOMContentLoaded', function()
     }
 });
 
-//alert button
-//document.getElementById('cow-button').addEventListener('click', function() {
-//    alert('Boop!');
-//})
+//alert button with hover effect
 const cowButton = document.getElementById('cow-button');
 
 function changeTextOnHover() {
