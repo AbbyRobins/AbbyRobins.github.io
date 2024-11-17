@@ -24,3 +24,20 @@
     height: 100%;
     object-fit: cover;
 }
+
+ol {
+    font-family: "Roboto", sans-serif;
+    font-size: 100%;
+    color: #535353;
+    padding: 0;
+    margin: 0;
+}
+
+#numbers {
+    column-count: 2;
+    column-gap: 50px;
+}
+
+#numbers li {
+    break-inside: avoid;
+}
