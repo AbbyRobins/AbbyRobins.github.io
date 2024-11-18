@@ -1,7 +1,6 @@
 //greeting
 document.addEventListener('DOMContentLoaded', function()
 {
-    console.log("DOM loaded, running greeting function")
     const greetingElement = document.getElementById('greeting');
     const currentHour = new Date().getHours();
     let greetingText, greetingClass;
