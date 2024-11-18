@@ -3,25 +3,27 @@ const fYear = document.getElementById("footeryear");
 const d = new Date();
 fYear.textContent = d.getFullYear();
 
-console.log("Today's date:", new Date().toDateString())
+console.log("Today's date:", new Date().toDateString());
 
 //alert button with hover effect
-const cowButton = document.getElementById('cow-button');
-
-function changeTextOnHover() {
-    cowButton.setAttribute('data-original-text', cowButton.getAttribute('data-after'));
-    cowButton.setAttribute('data-after', 'Boop me!');
-}
-
-function revertText() {
-    cowButton.setAttribute('data-after', 'Moo!');
-}
-
-cowButton.addEventListener('mouseover', changeTextOnHover);
-cowButton.addEventListener('mouseout', revertText);
-cowButton.addEventListener('click', function() {
-    alert('Boop!');
-})
+document.addEventListener('DOMContentLoaded', function() {
+    const cowButton = document.getElementById('cow-button');
+    
+    function changeTextOnHover() {
+        cowButton.setAttribute('data-original-text', cowButton.getAttribute('data-after'));
+        cowButton.setAttribute('data-after', 'Boop me!');
+    }
+    
+    function revertText() {
+        cowButton.setAttribute('data-after', 'Moo!');
+    }
+    
+    cowButton.addEventListener('mouseover', changeTextOnHover);
+    cowButton.addEventListener('mouseout', revertText);
+    cowButton.addEventListener('click', function() {
+        alert('Boop!');
+    })
+});
 
 // looked up collapsible menu, this is what it told me to do... does not work? HIDING FOR NOW
 
